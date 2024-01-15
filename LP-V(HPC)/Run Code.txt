@@ -15,3 +15,9 @@ Assignment-3_sum: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
 
 Assignment-3_avg: Step-1 - Type in Terminal "g++ file.cpp -fopenmp -o out"
                   Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-4_1: Step-1 - Type in Terminal "g++ file.cpp -fopenmp -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-4_2: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
+                  Step-2 - If file compiled with no errors then type "./out"
