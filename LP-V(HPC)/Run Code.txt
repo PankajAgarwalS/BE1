@@ -3,3 +3,6 @@ Assignment-1: Step-1 - Type in Terminal "g++ file.cpp -o out"
 
 Assignment-2: Step-1 - Type in Terminal "gcc file.c -lgomp -o out"
               Step-2 - If file compiled with no errors then type "./out"
+
+Assignment-3: Step-1 - Type in Terminal "g++ min.c -fopenmp -o out"
+              Step-2 - If file compiled with no errors then type "./out"
