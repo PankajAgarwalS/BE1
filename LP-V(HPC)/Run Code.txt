@@ -1,7 +1,7 @@
 Assignment-1: Step-1 - Type in Terminal "g++ -o out -fopenmp -pthread -std=c++11 ass1.cpp"
               Step-2 - If file compiled with no errors then type "./out"
 
-Assignment-2: Step-1 - Type in Terminal "gcc file.c -lgomp -o out"
+Assignment-2: Step-1 - Type in Terminal "gcc ass2.c -lgomp -pthread -o out"
               Step-2 - If file compiled with no errors then type "./out"
 
 Assignment-3_min: Step-1 - Type in Terminal "g++ file.c -fopenmp -o out"
