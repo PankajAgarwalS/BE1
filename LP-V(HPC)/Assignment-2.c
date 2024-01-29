@@ -51,7 +51,7 @@ int main (int argc, char *argv[]) {
 				printf(" %ld\n",A[i]);
 	}
 
-	printf("\n-------------------------\n Time Parallel= %f",(end-start));
+	printf("\n-------------------------\n Time Parallel= %f\n",(end-start));
 }
 
 void swap(int *num1, int *num2)
