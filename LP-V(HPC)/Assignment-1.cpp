@@ -1,9 +1,13 @@
+#include<pthread.h>
 #include<iostream>
 #include<omp.h>
 #include<stack>
 #include<queue>
+#include<thread>
+#include<chrono>
 
 using namespace std;
+
 
 struct TreeNode{
     int val;
@@ -23,7 +27,8 @@ void pBFS(TreeNode* root){
             #pragma omp critical
             {
                 node = q.front();
-                cout << node->val << " ";
+                cout << endl;
+                cout << "Thread: " << omp_get_thread_num() << " Value: " << node->val;
                 q.pop();
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
@@ -43,7 +48,8 @@ void pDFS(TreeNode* root){
             #pragma omp critical
             {
                 node = s.top();
-                cout << node->val << " ";
+                cout << endl;
+                cout << "Thread: " << omp_get_thread_num() << " Value: " << node->val;
                 s.pop();
                 if(node->right) s.push(node->right);
                 if(node->left) s.push(node->left);
@@ -73,7 +79,8 @@ int main(){
 
     cout << "Parallel BFS: ";
     pBFS(tree);
-    cout << "\n";
+    cout << "\n\n";
     cout << "Parallel DFS: ";
     pDFS(tree);
+    cout << "\n";
 }
