@@ -1,7 +1,6 @@
 Assignment-1_BFS: gcc -fopenmp Assignment-1_BFS.c -o bfs -> ./bfs
 Assignment-1_DFS: gcc -fopenmp Assignment-1_DFS.c -o dfs -> ./dfs
 
-
 Assignment-2_bubble: gcc -fopenmp Assignment-2_bubble.c -o bubble -> ./bubble
 Assignment-2_merge: gcc -fopenmp Assignment-2_merge.c -o merge -> ./merge
 
