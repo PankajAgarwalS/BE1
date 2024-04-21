@@ -1,6 +1,8 @@
 Assignment-1_BFS: gcc -fopenmp Assignment-1_BFS.c -o bfs -> ./bfs
 Assignment-1_DFS: gcc -fopenmp Assignment-1_DFS.c -o dfs -> ./dfs
 
+Assingment-1_DFS.cu: nvcc -o dfs Assingment-1_DFS.cu
+
 Assignment-2_bubble.c: gcc -fopenmp Assignment-2_bubble.c -o bubble -> ./bubble
 Assignment-2_merge.c: gcc -fopenmp Assignment-2_merge.c -o merge -> ./merge
 
